@@ -10,4 +10,16 @@
     <PackageReference Include="devexpress.win.design" Version="21.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="frmDMChatLieu - Copy.Designer.cs">
+      <DependentUpon>frmDMChatLieu.Designer.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="frmDMChatLieu - Copy.resx">
+      <DependentUpon>frmDMChatLieu.resx</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

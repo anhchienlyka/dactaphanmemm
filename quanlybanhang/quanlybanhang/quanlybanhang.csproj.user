@@ -4,6 +4,12 @@
     <Compile Update="frmDMChatLieu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmDMKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmDMNhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>

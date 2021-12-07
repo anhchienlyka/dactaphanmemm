@@ -4767,23 +4767,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PCC\\.nuget\\packages\\": {},
+    "C:\\Users\\chien\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PCC\\source\\repos\\quanlybanhang\\quanlybanhang\\quanlybanhang.csproj",
+      "projectUniqueName": "C:\\Users\\chien\\Desktop\\GITT\\dactaphanmemm\\quanlybanhang\\quanlybanhang\\quanlybanhang.csproj",
       "projectName": "quanlybanhang",
-      "projectPath": "C:\\Users\\PCC\\source\\repos\\quanlybanhang\\quanlybanhang\\quanlybanhang.csproj",
-      "packagesPath": "C:\\Users\\PCC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PCC\\source\\repos\\quanlybanhang\\quanlybanhang\\obj\\",
+      "projectPath": "C:\\Users\\chien\\Desktop\\GITT\\dactaphanmemm\\quanlybanhang\\quanlybanhang\\quanlybanhang.csproj",
+      "packagesPath": "C:\\Users\\chien\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chien\\Desktop\\GITT\\dactaphanmemm\\quanlybanhang\\quanlybanhang\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
       ],
       "configFilePaths": [
-        "C:\\Users\\PCC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chien\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4834,7 +4834,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
