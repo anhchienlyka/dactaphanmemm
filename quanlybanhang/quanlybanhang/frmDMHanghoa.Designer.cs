@@ -73,10 +73,9 @@ namespace quanlybanhang
             // 
             // txtAnh
             // 
-            this.txtAnh.Location = new System.Drawing.Point(478, 62);
-            this.txtAnh.Margin = new System.Windows.Forms.Padding(2);
+            this.txtAnh.Location = new System.Drawing.Point(683, 103);
             this.txtAnh.Name = "txtAnh";
-            this.txtAnh.Size = new System.Drawing.Size(162, 20);
+            this.txtAnh.Size = new System.Drawing.Size(231, 26);
             this.txtAnh.TabIndex = 69;
             // 
             // labelControl6
@@ -84,10 +83,9 @@ namespace quanlybanhang
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelControl6.Appearance.Options.UseFont = true;
             this.labelControl6.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl6.Location = new System.Drawing.Point(418, 63);
-            this.labelControl6.Margin = new System.Windows.Forms.Padding(2);
+            this.labelControl6.Location = new System.Drawing.Point(597, 105);
             this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(56, 16);
+            this.labelControl6.Size = new System.Drawing.Size(80, 27);
             this.labelControl6.TabIndex = 68;
             this.labelControl6.Text = "Ảnh";
             // 
@@ -96,19 +94,17 @@ namespace quanlybanhang
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelControl7.Appearance.Options.UseFont = true;
             this.labelControl7.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl7.Location = new System.Drawing.Point(418, 100);
-            this.labelControl7.Margin = new System.Windows.Forms.Padding(2);
+            this.labelControl7.Location = new System.Drawing.Point(597, 167);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(56, 16);
+            this.labelControl7.Size = new System.Drawing.Size(80, 27);
             this.labelControl7.TabIndex = 67;
             this.labelControl7.Text = "Ghi chú";
             // 
             // txtMaHang
             // 
-            this.txtMaHang.Location = new System.Drawing.Point(165, 60);
-            this.txtMaHang.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMaHang.Location = new System.Drawing.Point(236, 100);
             this.txtMaHang.Name = "txtMaHang";
-            this.txtMaHang.Size = new System.Drawing.Size(162, 20);
+            this.txtMaHang.Size = new System.Drawing.Size(231, 26);
             this.txtMaHang.TabIndex = 66;
             // 
             // labelControl3
@@ -116,10 +112,9 @@ namespace quanlybanhang
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelControl3.Appearance.Options.UseFont = true;
             this.labelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl3.Location = new System.Drawing.Point(36, 58);
-            this.labelControl3.Margin = new System.Windows.Forms.Padding(2);
+            this.labelControl3.Location = new System.Drawing.Point(51, 97);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(100, 21);
+            this.labelControl3.Size = new System.Drawing.Size(143, 35);
             this.labelControl3.TabIndex = 65;
             this.labelControl3.Text = "Mã hàng";
             // 
@@ -130,10 +125,9 @@ namespace quanlybanhang
             this.btnDong.Appearance.Options.UseFont = true;
             this.btnDong.Appearance.Options.UseForeColor = true;
             this.btnDong.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.ImageOptions.Image")));
-            this.btnDong.Location = new System.Drawing.Point(555, 500);
-            this.btnDong.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDong.Location = new System.Drawing.Point(793, 833);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(123, 33);
+            this.btnDong.Size = new System.Drawing.Size(176, 55);
             this.btnDong.TabIndex = 64;
             this.btnDong.Text = "Tìm kiếm";
             // 
@@ -144,10 +138,9 @@ namespace quanlybanhang
             this.btnXoa.Appearance.Options.UseFont = true;
             this.btnXoa.Appearance.Options.UseForeColor = true;
             this.btnXoa.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.ImageOptions.Image")));
-            this.btnXoa.Location = new System.Drawing.Point(128, 500);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(2);
+            this.btnXoa.Location = new System.Drawing.Point(183, 833);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(88, 33);
+            this.btnXoa.Size = new System.Drawing.Size(126, 55);
             this.btnXoa.TabIndex = 63;
             this.btnXoa.Text = "Xóa";
             // 
@@ -158,10 +151,9 @@ namespace quanlybanhang
             this.btnSua.Appearance.Options.UseFont = true;
             this.btnSua.Appearance.Options.UseForeColor = true;
             this.btnSua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.ImageOptions.Image")));
-            this.btnSua.Location = new System.Drawing.Point(233, 500);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSua.Location = new System.Drawing.Point(333, 833);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(88, 33);
+            this.btnSua.Size = new System.Drawing.Size(126, 55);
             this.btnSua.TabIndex = 62;
             this.btnSua.Text = "Sửa";
             // 
@@ -172,10 +164,9 @@ namespace quanlybanhang
             this.btnLuu.Appearance.Options.UseFont = true;
             this.btnLuu.Appearance.Options.UseForeColor = true;
             this.btnLuu.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnLuu.ImageOptions.Image")));
-            this.btnLuu.Location = new System.Drawing.Point(341, 500);
-            this.btnLuu.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLuu.Location = new System.Drawing.Point(487, 833);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(88, 33);
+            this.btnLuu.Size = new System.Drawing.Size(126, 55);
             this.btnLuu.TabIndex = 61;
             this.btnLuu.Text = "Lưu";
             // 
@@ -186,10 +177,9 @@ namespace quanlybanhang
             this.btnBoqua.Appearance.Options.UseFont = true;
             this.btnBoqua.Appearance.Options.UseForeColor = true;
             this.btnBoqua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnBoqua.ImageOptions.Image")));
-            this.btnBoqua.Location = new System.Drawing.Point(448, 500);
-            this.btnBoqua.Margin = new System.Windows.Forms.Padding(2);
+            this.btnBoqua.Location = new System.Drawing.Point(640, 833);
             this.btnBoqua.Name = "btnBoqua";
-            this.btnBoqua.Size = new System.Drawing.Size(88, 33);
+            this.btnBoqua.Size = new System.Drawing.Size(126, 55);
             this.btnBoqua.TabIndex = 60;
             this.btnBoqua.Text = "Bỏ qua";
             // 
@@ -200,10 +190,9 @@ namespace quanlybanhang
             this.btnThem.Appearance.Options.UseFont = true;
             this.btnThem.Appearance.Options.UseForeColor = true;
             this.btnThem.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.ImageOptions.Image")));
-            this.btnThem.Location = new System.Drawing.Point(24, 500);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(2);
+            this.btnThem.Location = new System.Drawing.Point(34, 833);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(88, 33);
+            this.btnThem.Size = new System.Drawing.Size(126, 55);
             this.btnThem.TabIndex = 59;
             this.btnThem.Text = "Thêm";
             // 
@@ -211,10 +200,9 @@ namespace quanlybanhang
             // 
             this.groupControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.groupControl1.Controls.Add(this.dgvHang);
-            this.groupControl1.Location = new System.Drawing.Point(24, 288);
-            this.groupControl1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupControl1.Location = new System.Drawing.Point(34, 480);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(915, 191);
+            this.groupControl1.Size = new System.Drawing.Size(1307, 318);
             this.groupControl1.TabIndex = 58;
             this.groupControl1.Text = "Danh sách hàng hóa";
             // 
@@ -222,20 +210,18 @@ namespace quanlybanhang
             // 
             this.dgvHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvHang.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvHang.Location = new System.Drawing.Point(2, 23);
-            this.dgvHang.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvHang.Location = new System.Drawing.Point(2, 34);
             this.dgvHang.Name = "dgvHang";
             this.dgvHang.RowHeadersWidth = 62;
             this.dgvHang.RowTemplate.Height = 33;
-            this.dgvHang.Size = new System.Drawing.Size(911, 166);
+            this.dgvHang.Size = new System.Drawing.Size(1303, 282);
             this.dgvHang.TabIndex = 0;
             // 
             // txtTenHang
             // 
-            this.txtTenHang.Location = new System.Drawing.Point(165, 91);
-            this.txtTenHang.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTenHang.Location = new System.Drawing.Point(236, 152);
             this.txtTenHang.Name = "txtTenHang";
-            this.txtTenHang.Size = new System.Drawing.Size(162, 20);
+            this.txtTenHang.Size = new System.Drawing.Size(231, 26);
             this.txtTenHang.TabIndex = 57;
             // 
             // labelControl2
@@ -243,10 +229,9 @@ namespace quanlybanhang
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl2.Location = new System.Drawing.Point(36, 88);
-            this.labelControl2.Margin = new System.Windows.Forms.Padding(2);
+            this.labelControl2.Location = new System.Drawing.Point(51, 147);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(100, 23);
+            this.labelControl2.Size = new System.Drawing.Size(143, 38);
             this.labelControl2.TabIndex = 56;
             this.labelControl2.Text = "Tên hàng";
             // 
@@ -257,10 +242,9 @@ namespace quanlybanhang
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Appearance.Options.UseForeColor = true;
             this.labelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl1.Location = new System.Drawing.Point(294, 11);
-            this.labelControl1.Margin = new System.Windows.Forms.Padding(2);
+            this.labelControl1.Location = new System.Drawing.Point(420, 18);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(259, 30);
+            this.labelControl1.Size = new System.Drawing.Size(370, 50);
             this.labelControl1.TabIndex = 55;
             this.labelControl1.Text = "DANH MỤC HÀNG HÓA";
             // 
@@ -271,10 +255,9 @@ namespace quanlybanhang
             this.simpleButton1.Appearance.Options.UseFont = true;
             this.simpleButton1.Appearance.Options.UseForeColor = true;
             this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(851, 500);
-            this.simpleButton1.Margin = new System.Windows.Forms.Padding(2);
+            this.simpleButton1.Location = new System.Drawing.Point(1216, 833);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(88, 33);
+            this.simpleButton1.Size = new System.Drawing.Size(126, 55);
             this.simpleButton1.TabIndex = 71;
             this.simpleButton1.Text = "Thoát";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
@@ -286,10 +269,9 @@ namespace quanlybanhang
             this.simpleButton2.Appearance.Options.UseFont = true;
             this.simpleButton2.Appearance.Options.UseForeColor = true;
             this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.simpleButton2.Location = new System.Drawing.Point(701, 500);
-            this.simpleButton2.Margin = new System.Windows.Forms.Padding(2);
+            this.simpleButton2.Location = new System.Drawing.Point(1001, 833);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(125, 33);
+            this.simpleButton2.Size = new System.Drawing.Size(179, 55);
             this.simpleButton2.TabIndex = 72;
             this.simpleButton2.Text = "Hiển thị DS";
             // 
@@ -298,10 +280,9 @@ namespace quanlybanhang
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelControl4.Appearance.Options.UseFont = true;
             this.labelControl4.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl4.Location = new System.Drawing.Point(36, 124);
-            this.labelControl4.Margin = new System.Windows.Forms.Padding(2);
+            this.labelControl4.Location = new System.Drawing.Point(51, 207);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(100, 23);
+            this.labelControl4.Size = new System.Drawing.Size(143, 38);
             this.labelControl4.TabIndex = 73;
             this.labelControl4.Text = "Mã chất liệu";
             // 
@@ -310,10 +291,9 @@ namespace quanlybanhang
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelControl5.Appearance.Options.UseFont = true;
             this.labelControl5.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl5.Location = new System.Drawing.Point(36, 198);
-            this.labelControl5.Margin = new System.Windows.Forms.Padding(2);
+            this.labelControl5.Location = new System.Drawing.Point(51, 330);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(100, 23);
+            this.labelControl5.Size = new System.Drawing.Size(143, 38);
             this.labelControl5.TabIndex = 74;
             this.labelControl5.Text = "Đơn giá nhập";
             // 
@@ -322,10 +302,9 @@ namespace quanlybanhang
             this.labelControl8.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelControl8.Appearance.Options.UseFont = true;
             this.labelControl8.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl8.Location = new System.Drawing.Point(38, 161);
-            this.labelControl8.Margin = new System.Windows.Forms.Padding(2);
+            this.labelControl8.Location = new System.Drawing.Point(54, 268);
             this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(100, 23);
+            this.labelControl8.Size = new System.Drawing.Size(143, 38);
             this.labelControl8.TabIndex = 75;
             this.labelControl8.Text = "Số lượng";
             // 
@@ -334,68 +313,67 @@ namespace quanlybanhang
             this.labelControl9.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelControl9.Appearance.Options.UseFont = true;
             this.labelControl9.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl9.Location = new System.Drawing.Point(38, 237);
-            this.labelControl9.Margin = new System.Windows.Forms.Padding(2);
+            this.labelControl9.Location = new System.Drawing.Point(54, 395);
             this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(100, 23);
+            this.labelControl9.Size = new System.Drawing.Size(143, 38);
             this.labelControl9.TabIndex = 76;
             this.labelControl9.Text = "Đơn giá xuất";
             // 
             // cboMaChatLieu
             // 
-            this.cboMaChatLieu.Location = new System.Drawing.Point(164, 127);
+            this.cboMaChatLieu.Location = new System.Drawing.Point(234, 212);
+            this.cboMaChatLieu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboMaChatLieu.Name = "cboMaChatLieu";
             this.cboMaChatLieu.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cboMaChatLieu.Size = new System.Drawing.Size(163, 20);
+            this.cboMaChatLieu.Size = new System.Drawing.Size(233, 26);
             this.cboMaChatLieu.TabIndex = 77;
             // 
             // txtDonGiaNhap
             // 
-            this.txtDonGiaNhap.Location = new System.Drawing.Point(165, 201);
-            this.txtDonGiaNhap.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDonGiaNhap.Location = new System.Drawing.Point(236, 335);
             this.txtDonGiaNhap.Name = "txtDonGiaNhap";
-            this.txtDonGiaNhap.Size = new System.Drawing.Size(162, 20);
+            this.txtDonGiaNhap.Size = new System.Drawing.Size(231, 26);
             this.txtDonGiaNhap.TabIndex = 78;
             // 
             // txtSoLuong
             // 
-            this.txtSoLuong.Location = new System.Drawing.Point(164, 164);
-            this.txtSoLuong.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSoLuong.Location = new System.Drawing.Point(234, 273);
             this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(162, 20);
+            this.txtSoLuong.Size = new System.Drawing.Size(231, 26);
             this.txtSoLuong.TabIndex = 79;
             // 
             // txtDonGiaBan
             // 
-            this.txtDonGiaBan.Location = new System.Drawing.Point(165, 240);
-            this.txtDonGiaBan.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDonGiaBan.Location = new System.Drawing.Point(236, 400);
             this.txtDonGiaBan.Name = "txtDonGiaBan";
-            this.txtDonGiaBan.Size = new System.Drawing.Size(162, 20);
+            this.txtDonGiaBan.Size = new System.Drawing.Size(231, 26);
             this.txtDonGiaBan.TabIndex = 80;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(739, 49);
+            this.pictureBox1.Location = new System.Drawing.Point(1056, 82);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(178, 188);
+            this.pictureBox1.Size = new System.Drawing.Size(254, 313);
             this.pictureBox1.TabIndex = 82;
             this.pictureBox1.TabStop = false;
             // 
             // txtGhiChu
             // 
             this.txtGhiChu.FormattingEnabled = true;
-            this.txtGhiChu.ItemHeight = 15;
-            this.txtGhiChu.Location = new System.Drawing.Point(478, 97);
+            this.txtGhiChu.ItemHeight = 25;
+            this.txtGhiChu.Location = new System.Drawing.Point(683, 162);
+            this.txtGhiChu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtGhiChu.Name = "txtGhiChu";
-            this.txtGhiChu.Size = new System.Drawing.Size(162, 124);
+            this.txtGhiChu.Size = new System.Drawing.Size(230, 204);
             this.txtGhiChu.TabIndex = 81;
             // 
             // frmDMHanghoa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(976, 559);
+            this.ClientSize = new System.Drawing.Size(1394, 932);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtGhiChu);
             this.Controls.Add(this.txtDonGiaBan);
@@ -423,6 +401,7 @@ namespace quanlybanhang
             this.Controls.Add(this.txtTenHang);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmDMHanghoa";
             this.Text = "frmDMHanghoa";
             ((System.ComponentModel.ISupportInitialize)(this.txtAnh.Properties)).EndInit();

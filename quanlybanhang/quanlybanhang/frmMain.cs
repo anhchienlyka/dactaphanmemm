@@ -17,5 +17,15 @@ namespace quanlybanhang
             InitializeComponent();
         }
 
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            Class.Functions.Connect(); //Mở kết nối
+        }
+
+        private void mnuChatLieu_Click(object sender, EventArgs e)
+        {
+            frmDMChatLieu frmChatLieu = new frmDMChatLieu(); //Khởi tạo đối tượng
+            frmChatLieu.ShowDialog(); //Hiển thị
+        }
     }
 }
