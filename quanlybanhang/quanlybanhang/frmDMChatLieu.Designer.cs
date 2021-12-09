@@ -34,9 +34,9 @@ namespace quanlybanhang
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.txtTenChatLieu = new DevExpress.XtraEditors.TextEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvChatLieu = new System.Windows.Forms.DataGridView();
             this.btnThem = new DevExpress.XtraEditors.SimpleButton();
-            this.btnBoqua = new DevExpress.XtraEditors.SimpleButton();
+            this.btnBoQua = new DevExpress.XtraEditors.SimpleButton();
             this.btnLuu = new DevExpress.XtraEditors.SimpleButton();
             this.btnSua = new DevExpress.XtraEditors.SimpleButton();
             this.btnXoa = new DevExpress.XtraEditors.SimpleButton();
@@ -46,7 +46,7 @@ namespace quanlybanhang
             ((System.ComponentModel.ISupportInitialize)(this.txtTenChatLieu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChatLieu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMaChatLieu.Properties)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,49 +57,56 @@ namespace quanlybanhang
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Appearance.Options.UseForeColor = true;
             this.labelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl1.Location = new System.Drawing.Point(286, 12);
+            this.labelControl1.Location = new System.Drawing.Point(200, 7);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(2);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(370, 50);
+            this.labelControl1.Size = new System.Drawing.Size(259, 30);
             this.labelControl1.TabIndex = 0;
-            this.labelControl1.Text = "DANH MỤC CHẤT LIỆU";
+            this.labelControl1.Text = "DANH MỤC NGUYÊN LIỆU";
             // 
             // labelControl2
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl2.Location = new System.Drawing.Point(49, 147);
+            this.labelControl2.Location = new System.Drawing.Point(34, 88);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(2);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(163, 27);
+            this.labelControl2.Size = new System.Drawing.Size(114, 23);
             this.labelControl2.TabIndex = 1;
-            this.labelControl2.Text = "Tên chất liệu";
+            this.labelControl2.Text = "Tên nguyên liệu";
             // 
             // txtTenChatLieu
             // 
-            this.txtTenChatLieu.Location = new System.Drawing.Point(231, 152);
+            this.txtTenChatLieu.Location = new System.Drawing.Point(162, 91);
+            this.txtTenChatLieu.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenChatLieu.Name = "txtTenChatLieu";
-            this.txtTenChatLieu.Size = new System.Drawing.Size(231, 26);
+            this.txtTenChatLieu.Size = new System.Drawing.Size(162, 20);
             this.txtTenChatLieu.TabIndex = 3;
             // 
             // groupControl1
             // 
-            this.groupControl1.Controls.Add(this.dataGridView1);
-            this.groupControl1.Location = new System.Drawing.Point(96, 232);
+            this.groupControl1.Controls.Add(this.dgvChatLieu);
+            this.groupControl1.Location = new System.Drawing.Point(67, 139);
+            this.groupControl1.Margin = new System.Windows.Forms.Padding(2);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(709, 222);
+            this.groupControl1.Size = new System.Drawing.Size(496, 167);
             this.groupControl1.TabIndex = 5;
-            this.groupControl1.Text = "Chất liệu";
+            this.groupControl1.Text = "Danh sách nguyên liệu";
             // 
-            // dataGridView1
+            // dgvChatLieu
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(2, 34);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(705, 186);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvChatLieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvChatLieu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvChatLieu.Location = new System.Drawing.Point(2, 23);
+            this.dgvChatLieu.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvChatLieu.Name = "dgvChatLieu";
+            this.dgvChatLieu.RowHeadersWidth = 62;
+            this.dgvChatLieu.RowTemplate.Height = 33;
+            this.dgvChatLieu.Size = new System.Drawing.Size(492, 142);
+            this.dgvChatLieu.TabIndex = 0;
+            this.dgvChatLieu.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChatLieu_CellContentClick);
+            this.dgvChatLieu.Click += new System.EventHandler(this.dgvChatLieu_Click);
             // 
             // btnThem
             // 
@@ -108,24 +115,28 @@ namespace quanlybanhang
             this.btnThem.Appearance.Options.UseFont = true;
             this.btnThem.Appearance.Options.UseForeColor = true;
             this.btnThem.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.ImageOptions.Image")));
-            this.btnThem.Location = new System.Drawing.Point(11, 505);
+            this.btnThem.Location = new System.Drawing.Point(11, 322);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(2);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(126, 60);
+            this.btnThem.Size = new System.Drawing.Size(88, 36);
             this.btnThem.TabIndex = 6;
             this.btnThem.Text = "Thêm";
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
-            // btnBoqua
+            // btnBoQua
             // 
-            this.btnBoqua.Appearance.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBoqua.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnBoqua.Appearance.Options.UseFont = true;
-            this.btnBoqua.Appearance.Options.UseForeColor = true;
-            this.btnBoqua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnBoqua.ImageOptions.Image")));
-            this.btnBoqua.Location = new System.Drawing.Point(617, 505);
-            this.btnBoqua.Name = "btnBoqua";
-            this.btnBoqua.Size = new System.Drawing.Size(126, 60);
-            this.btnBoqua.TabIndex = 7;
-            this.btnBoqua.Text = "Bỏ qua";
+            this.btnBoQua.Appearance.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnBoQua.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnBoQua.Appearance.Options.UseFont = true;
+            this.btnBoQua.Appearance.Options.UseForeColor = true;
+            this.btnBoQua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnBoQua.ImageOptions.Image")));
+            this.btnBoQua.Location = new System.Drawing.Point(435, 322);
+            this.btnBoQua.Margin = new System.Windows.Forms.Padding(2);
+            this.btnBoQua.Name = "btnBoQua";
+            this.btnBoQua.Size = new System.Drawing.Size(88, 36);
+            this.btnBoQua.TabIndex = 7;
+            this.btnBoQua.Text = "Bỏ qua";
+            this.btnBoQua.Click += new System.EventHandler(this.btnBoQua_Click);
             // 
             // btnLuu
             // 
@@ -134,11 +145,13 @@ namespace quanlybanhang
             this.btnLuu.Appearance.Options.UseFont = true;
             this.btnLuu.Appearance.Options.UseForeColor = true;
             this.btnLuu.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnLuu.ImageOptions.Image")));
-            this.btnLuu.Location = new System.Drawing.Point(464, 505);
+            this.btnLuu.Location = new System.Drawing.Point(328, 322);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(2);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(126, 60);
+            this.btnLuu.Size = new System.Drawing.Size(88, 36);
             this.btnLuu.TabIndex = 8;
             this.btnLuu.Text = "Lưu";
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnSua
             // 
@@ -147,11 +160,13 @@ namespace quanlybanhang
             this.btnSua.Appearance.Options.UseFont = true;
             this.btnSua.Appearance.Options.UseForeColor = true;
             this.btnSua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.ImageOptions.Image")));
-            this.btnSua.Location = new System.Drawing.Point(310, 505);
+            this.btnSua.Location = new System.Drawing.Point(220, 322);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(2);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(126, 60);
+            this.btnSua.Size = new System.Drawing.Size(88, 36);
             this.btnSua.TabIndex = 9;
             this.btnSua.Text = "Sửa";
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnXoa
             // 
@@ -160,11 +175,13 @@ namespace quanlybanhang
             this.btnXoa.Appearance.Options.UseFont = true;
             this.btnXoa.Appearance.Options.UseForeColor = true;
             this.btnXoa.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.ImageOptions.Image")));
-            this.btnXoa.Location = new System.Drawing.Point(160, 505);
+            this.btnXoa.Location = new System.Drawing.Point(115, 322);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(2);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(126, 60);
+            this.btnXoa.Size = new System.Drawing.Size(88, 36);
             this.btnXoa.TabIndex = 10;
             this.btnXoa.Text = "Xóa";
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnDong
             // 
@@ -173,53 +190,60 @@ namespace quanlybanhang
             this.btnDong.Appearance.Options.UseFont = true;
             this.btnDong.Appearance.Options.UseForeColor = true;
             this.btnDong.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.ImageOptions.Image")));
-            this.btnDong.Location = new System.Drawing.Point(757, 505);
+            this.btnDong.Location = new System.Drawing.Point(533, 322);
+            this.btnDong.Margin = new System.Windows.Forms.Padding(2);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(126, 60);
+            this.btnDong.Size = new System.Drawing.Size(88, 36);
             this.btnDong.TabIndex = 11;
             this.btnDong.Text = "Thoát";
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // txtMaChatLieu
             // 
-            this.txtMaChatLieu.Location = new System.Drawing.Point(231, 100);
+            this.txtMaChatLieu.Location = new System.Drawing.Point(162, 60);
+            this.txtMaChatLieu.Margin = new System.Windows.Forms.Padding(2);
             this.txtMaChatLieu.Name = "txtMaChatLieu";
-            this.txtMaChatLieu.Size = new System.Drawing.Size(231, 26);
+            this.txtMaChatLieu.Size = new System.Drawing.Size(162, 20);
             this.txtMaChatLieu.TabIndex = 13;
+            this.txtMaChatLieu.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtMaChatLieu_KeyUp);
             // 
             // labelControl3
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelControl3.Appearance.Options.UseFont = true;
             this.labelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl3.Location = new System.Drawing.Point(49, 98);
+            this.labelControl3.Location = new System.Drawing.Point(34, 55);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(2);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(163, 27);
+            this.labelControl3.Size = new System.Drawing.Size(114, 26);
             this.labelControl3.TabIndex = 12;
-            this.labelControl3.Text = "Mã chất liệu";
+            this.labelControl3.Text = "Mã nguyên liệu";
             // 
             // frmDMChatLieu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(911, 615);
+            this.ClientSize = new System.Drawing.Size(638, 369);
             this.Controls.Add(this.txtMaChatLieu);
             this.Controls.Add(this.labelControl3);
             this.Controls.Add(this.btnDong);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnLuu);
-            this.Controls.Add(this.btnBoqua);
+            this.Controls.Add(this.btnBoQua);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.txtTenChatLieu);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmDMChatLieu";
             this.Text = "frmDMChatLieu";
+            this.Load += new System.EventHandler(this.frmDMChatLieu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtTenChatLieu.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChatLieu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMaChatLieu.Properties)).EndInit();
             this.ResumeLayout(false);
 
@@ -232,13 +256,13 @@ namespace quanlybanhang
         private DevExpress.XtraEditors.TextEdit txtTenChatLieu;
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraEditors.SimpleButton btnThem;
-        private DevExpress.XtraEditors.SimpleButton btnBoqua;
+        private DevExpress.XtraEditors.SimpleButton btnBoQua;
         private DevExpress.XtraEditors.SimpleButton btnLuu;
         private DevExpress.XtraEditors.SimpleButton btnSua;
         private DevExpress.XtraEditors.SimpleButton btnXoa;
         private DevExpress.XtraEditors.SimpleButton btnDong;
         private DevExpress.XtraEditors.TextEdit txtMaChatLieu;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvChatLieu;
     }
 }

@@ -27,5 +27,17 @@ namespace quanlybanhang
             frmDMChatLieu frmChatLieu = new frmDMChatLieu(); //Khởi tạo đối tượng
             frmChatLieu.ShowDialog(); //Hiển thị
         }
+
+        private void mnuNhanVien_Click(object sender, EventArgs e)
+        {
+            frmDMNhanvien frmDMNhanvien = new frmDMNhanvien();
+            frmDMNhanvien.ShowDialog();
+        }
+
+        private void mnuHangHoa_Click(object sender, EventArgs e)
+        {
+            frmDMHanghoa frmDMHanghoa = new frmDMHanghoa();
+            frmDMHanghoa.ShowDialog();
+        }
     }
 }
