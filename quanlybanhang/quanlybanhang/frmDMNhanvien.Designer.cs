@@ -36,7 +36,7 @@ namespace quanlybanhang
             this.btnXoa = new DevExpress.XtraEditors.SimpleButton();
             this.btnSua = new DevExpress.XtraEditors.SimpleButton();
             this.btnLuu = new DevExpress.XtraEditors.SimpleButton();
-            this.btnBoqua = new DevExpress.XtraEditors.SimpleButton();
+            this.btnBoQua = new DevExpress.XtraEditors.SimpleButton();
             this.btnThem = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.dgvNhanVien = new System.Windows.Forms.DataGridView();
@@ -65,6 +65,7 @@ namespace quanlybanhang
             this.txtMaNhanVien.Name = "txtMaNhanVien";
             this.txtMaNhanVien.Size = new System.Drawing.Size(231, 26);
             this.txtMaNhanVien.TabIndex = 25;
+            this.txtMaNhanVien.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtMaNhanVien_KeyUp);
             // 
             // labelControl3
             // 
@@ -89,6 +90,7 @@ namespace quanlybanhang
             this.btnDong.Size = new System.Drawing.Size(126, 60);
             this.btnDong.TabIndex = 23;
             this.btnDong.Text = "Thoát";
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // btnXoa
             // 
@@ -102,6 +104,7 @@ namespace quanlybanhang
             this.btnXoa.Size = new System.Drawing.Size(126, 60);
             this.btnXoa.TabIndex = 22;
             this.btnXoa.Text = "Xóa";
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -115,6 +118,7 @@ namespace quanlybanhang
             this.btnSua.Size = new System.Drawing.Size(126, 60);
             this.btnSua.TabIndex = 21;
             this.btnSua.Text = "Sửa";
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnLuu
             // 
@@ -128,19 +132,21 @@ namespace quanlybanhang
             this.btnLuu.Size = new System.Drawing.Size(126, 60);
             this.btnLuu.TabIndex = 20;
             this.btnLuu.Text = "Lưu";
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
-            // btnBoqua
+            // btnBoQua
             // 
-            this.btnBoqua.Appearance.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBoqua.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnBoqua.Appearance.Options.UseFont = true;
-            this.btnBoqua.Appearance.Options.UseForeColor = true;
-            this.btnBoqua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnBoqua.ImageOptions.Image")));
-            this.btnBoqua.Location = new System.Drawing.Point(673, 518);
-            this.btnBoqua.Name = "btnBoqua";
-            this.btnBoqua.Size = new System.Drawing.Size(126, 60);
-            this.btnBoqua.TabIndex = 19;
-            this.btnBoqua.Text = "Bỏ qua";
+            this.btnBoQua.Appearance.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnBoQua.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnBoQua.Appearance.Options.UseFont = true;
+            this.btnBoQua.Appearance.Options.UseForeColor = true;
+            this.btnBoQua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnBoqua.ImageOptions.Image")));
+            this.btnBoQua.Location = new System.Drawing.Point(673, 518);
+            this.btnBoQua.Name = "btnBoQua";
+            this.btnBoQua.Size = new System.Drawing.Size(126, 60);
+            this.btnBoQua.TabIndex = 19;
+            this.btnBoQua.Text = "Bỏ qua";
+            this.btnBoQua.Click += new System.EventHandler(this.btnBoQua_Click);
             // 
             // btnThem
             // 
@@ -154,13 +160,14 @@ namespace quanlybanhang
             this.btnThem.Size = new System.Drawing.Size(126, 60);
             this.btnThem.TabIndex = 18;
             this.btnThem.Text = "Thêm";
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // groupControl1
             // 
             this.groupControl1.Controls.Add(this.dgvNhanVien);
-            this.groupControl1.Location = new System.Drawing.Point(149, 262);
+            this.groupControl1.Location = new System.Drawing.Point(69, 262);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(709, 222);
+            this.groupControl1.Size = new System.Drawing.Size(870, 236);
             this.groupControl1.TabIndex = 17;
             this.groupControl1.Text = "Danh sách nhân viên";
             // 
@@ -172,8 +179,9 @@ namespace quanlybanhang
             this.dgvNhanVien.Name = "dgvNhanVien";
             this.dgvNhanVien.RowHeadersWidth = 62;
             this.dgvNhanVien.RowTemplate.Height = 33;
-            this.dgvNhanVien.Size = new System.Drawing.Size(705, 186);
+            this.dgvNhanVien.Size = new System.Drawing.Size(866, 200);
             this.dgvNhanVien.TabIndex = 0;
+            this.dgvNhanVien.Click += new System.EventHandler(this.dgvNhanVien_Click);
             // 
             // txtTenNhanVien
             // 
@@ -303,7 +311,7 @@ namespace quanlybanhang
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnLuu);
-            this.Controls.Add(this.btnBoqua);
+            this.Controls.Add(this.btnBoQua);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.txtTenNhanVien);
@@ -311,6 +319,7 @@ namespace quanlybanhang
             this.Controls.Add(this.labelControl1);
             this.Name = "frmDMNhanvien";
             this.Text = "frmDMNhanvien";
+            this.Load += new System.EventHandler(this.frmDMNhanvien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtMaNhanVien.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
@@ -330,7 +339,7 @@ namespace quanlybanhang
         private DevExpress.XtraEditors.SimpleButton btnXoa;
         private DevExpress.XtraEditors.SimpleButton btnSua;
         private DevExpress.XtraEditors.SimpleButton btnLuu;
-        private DevExpress.XtraEditors.SimpleButton btnBoqua;
+        private DevExpress.XtraEditors.SimpleButton btnBoQua;
         private DevExpress.XtraEditors.SimpleButton btnThem;
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private System.Windows.Forms.DataGridView dgvNhanVien;

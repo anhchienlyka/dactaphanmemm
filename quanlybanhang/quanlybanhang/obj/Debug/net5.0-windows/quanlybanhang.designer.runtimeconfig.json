@@ -6,8 +6,8 @@
       "version": "5.0.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\PCC\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\PCC\\.nuget\\packages",
+      "C:\\Users\\chien\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\chien\\.nuget\\packages",
       "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
     ],
     "configProperties": {

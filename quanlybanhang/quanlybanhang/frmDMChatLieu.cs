@@ -42,8 +42,8 @@ namespace quanlybanhang
             dgvChatLieu.DataSource = tblCL; //Nguồn dữ liệu            
             dgvChatLieu.Columns[0].HeaderText = "Mã chất liệu";
             dgvChatLieu.Columns[1].HeaderText = "Tên chất liệu";
-            dgvChatLieu.Columns[0].Width = 100;
-            dgvChatLieu.Columns[1].Width = 400;
+            dgvChatLieu.Columns[0].Width = 200;
+            dgvChatLieu.Columns[1].Width = 500;
             dgvChatLieu.AllowUserToAddRows = false; //Không cho người dùng thêm dữ liệu trực tiếp
             dgvChatLieu.EditMode = DataGridViewEditMode.EditProgrammatically; //Không cho sửa dữ liệu trực tiếp
         }
