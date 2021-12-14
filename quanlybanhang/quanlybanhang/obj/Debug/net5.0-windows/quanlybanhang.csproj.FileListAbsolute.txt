@@ -280,7 +280,6 @@ C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\bin\Debug\net
 C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\bin\Debug\net5.0-windows\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
 C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
-C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.csproj.AssemblyReference.cache
 C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.frmDMChatLieu.resources
 C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.frmDMHanghoa.resources
 C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.frmDMKhachHang.resources
@@ -298,3 +297,6 @@ C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net
 C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\ref\quanlybanhang.dll
 C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.pdb
 C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.genruntimeconfig.cache
+C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.csproj.AssemblyReference.cache
+C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.csproj.ResolveComReference.cache

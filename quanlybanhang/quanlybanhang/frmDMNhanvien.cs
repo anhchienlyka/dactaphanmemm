@@ -31,7 +31,7 @@ namespace quanlybanhang
         private void LoadDataGridView()
         {
             string sql;
-            sql = "SELECT MaNhanVien,TenNhanVien,GioiTinh,DiaChi,DienThoai,NgaySinh FROm tblNhanVien";
+            sql = "SELECT MaNhanVien,TenNhanVien,GioiTinh,DiaChi,DienThoai,NgaySinh FROM tblNhanVien";
             tblNV = Functions.GetDataToTable(sql); //lấy dữ liệu
             dgvNhanVien.DataSource = tblNV;
             dgvNhanVien.Columns[0].HeaderText = "Mã nhân viên";

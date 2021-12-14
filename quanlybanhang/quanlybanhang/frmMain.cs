@@ -39,5 +39,17 @@ namespace quanlybanhang
             frmDMHanghoa frmDMHanghoa = new frmDMHanghoa();
             frmDMHanghoa.ShowDialog();
         }
+
+        private void mnuKhachHang_Click(object sender, EventArgs e)
+        {
+            frmDMKhachHang frmDMKhachHang = new frmDMKhachHang();
+            frmDMKhachHang.ShowDialog();
+        }
+
+        private void mnuHoaDonBan_Click(object sender, EventArgs e)
+        {
+            frmHoadonbanhang frmHoadonbanhang = new frmHoadonbanhang();
+            frmHoadonbanhang.ShowDialog();
+        }
     }
 }

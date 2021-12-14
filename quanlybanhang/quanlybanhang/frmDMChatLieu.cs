@@ -14,7 +14,7 @@ namespace quanlybanhang
     public partial class frmDMChatLieu : Form
     {
 
-        DataTable tblCL; //Chứa dữ liệu bảng Chất liệu
+        DataTable tblCL; //Chứa dữ liệu bảng loại bánh
 
         public frmDMChatLieu()
         {
@@ -31,17 +31,17 @@ namespace quanlybanhang
             txtMaChatLieu.Enabled = false;
             btnLuu.Enabled = false;
             btnBoQua.Enabled = false;
-            LoadDataGridView(); //Hiển thị bảng tblChatLieu
+            LoadDataGridView(); //Hiển thị bảng tblLoaiBanh
         }
 
         private void LoadDataGridView()
         {
             string sql;
-            sql = "SELECT MaChatLieu, TenChatLieu FROM tblChatLieu";
+            sql = "SELECT MaLoaiBanh, TenLoaiBanh FROM tblLoaiBanh";
             tblCL = Class.Functions.GetDataToTable(sql); //Đọc dữ liệu từ bảng
             dgvChatLieu.DataSource = tblCL; //Nguồn dữ liệu            
-            dgvChatLieu.Columns[0].HeaderText = "Mã chất liệu";
-            dgvChatLieu.Columns[1].HeaderText = "Tên chất liệu";
+            dgvChatLieu.Columns[0].HeaderText = "Mã loại bánh";
+            dgvChatLieu.Columns[1].HeaderText = "Tên loại bánh";
             dgvChatLieu.Columns[0].Width = 200;
             dgvChatLieu.Columns[1].Width = 500;
             dgvChatLieu.AllowUserToAddRows = false; //Không cho người dùng thêm dữ liệu trực tiếp
@@ -66,8 +66,8 @@ namespace quanlybanhang
                 MessageBox.Show("Không có dữ liệu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
-            txtMaChatLieu.Text = dgvChatLieu.CurrentRow.Cells["MaChatLieu"].Value.ToString();
-            txtTenChatLieu.Text = dgvChatLieu.CurrentRow.Cells["TenChatLieu"].Value.ToString();
+            txtMaChatLieu.Text = dgvChatLieu.CurrentRow.Cells["MaLoaiBanh"].Value.ToString();
+            txtTenChatLieu.Text = dgvChatLieu.CurrentRow.Cells["TenLoaiBanh"].Value.ToString();
             btnSua.Enabled = true;
             btnXoa.Enabled = true;
             btnBoQua.Enabled = true;
@@ -94,27 +94,27 @@ namespace quanlybanhang
         private void btnLuu_Click(object sender, EventArgs e)
         {
             string sql; //Lưu lệnh sql
-            if (txtMaChatLieu.Text.Trim().Length == 0) //Nếu chưa nhập mã chất liệu
+            if (txtMaChatLieu.Text.Trim().Length == 0) //Nếu chưa nhập mã loại bánh
             {
-                MessageBox.Show("Bạn phải nhập mã chất liệu", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Bạn phải nhập mã loại bánh", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtMaChatLieu.Focus();
                 return;
             }
-            if (txtTenChatLieu.Text.Trim().Length == 0) //Nếu chưa nhập tên chất liệu
+            if (txtTenChatLieu.Text.Trim().Length == 0) //Nếu chưa nhập tên loại bánh
             {
-                MessageBox.Show("Bạn phải nhập tên chất liệu", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Bạn phải nhập tên loại bánh", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtTenChatLieu.Focus();
                 return;
             }
-            sql = "Select MaChatLieu From tblChatLieu where MaChatLieu=N'" + txtMaChatLieu.Text.Trim() + "'";
+            sql = "Select MaLoaiBanh From tblLoaiBanh where MaLoaiBanh=N'" + txtMaChatLieu.Text.Trim() + "'";
             if (Class.Functions.CheckKey(sql))
             {
-                MessageBox.Show("Mã chất liệu này đã có, bạn phải nhập mã khác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Mã loại bánh này đã có, bạn phải nhập mã khác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtMaChatLieu.Focus();
                 return;
             }
 
-            sql = "INSERT INTO tblChatLieu VALUES(N'" +
+            sql = "INSERT INTO tblLoaiBanh VALUES(N'" +
                 txtMaChatLieu.Text + "',N'" + txtTenChatLieu.Text + "')";
             Class.Functions.RunSQL(sql); //Thực hiện câu lệnh sql
             LoadDataGridView(); //Nạp lại DataGridView
@@ -140,14 +140,14 @@ namespace quanlybanhang
                 MessageBox.Show("Bạn chưa chọn bản ghi nào", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
-            if (txtTenChatLieu.Text.Trim().Length == 0) //nếu chưa nhập tên chất liệu
+            if (txtTenChatLieu.Text.Trim().Length == 0) //nếu chưa nhập tên loại bánh
             {
-                MessageBox.Show("Bạn chưa nhập tên chất liệu", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Bạn chưa nhập tên loại bánh", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
-            sql = "UPDATE tblChatLieu SET TenChatLieu=N'" +
+            sql = "UPDATE tblLoaiBanh SET TenLoaiBanh=N'" +
                 txtTenChatLieu.Text.ToString() +
-                "' WHERE MaChatLieu=N'" + txtMaChatLieu.Text + "'";
+                "' WHERE MaLoaiBanh=N'" + txtMaChatLieu.Text + "'";
             Class.Functions.RunSQL(sql);
             LoadDataGridView();
             ResetValue();
@@ -170,7 +170,7 @@ namespace quanlybanhang
             }
             if (MessageBox.Show("Bạn có muốn xoá không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                sql = "DELETE tblChatLieu WHERE MaChatLieu=N'" + txtMaChatLieu.Text + "'";
+                sql = "DELETE tblLoaiBanh WHERE MaLoaiBanh=N'" + txtMaChatLieu.Text + "'";
                 Class.Functions.RunSqlDel(sql);
                 LoadDataGridView();
                 ResetValue();

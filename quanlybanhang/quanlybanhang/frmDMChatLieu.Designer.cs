@@ -62,7 +62,7 @@ namespace quanlybanhang
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(259, 30);
             this.labelControl1.TabIndex = 0;
-            this.labelControl1.Text = "DANH MỤC NGUYÊN LIỆU";
+            this.labelControl1.Text = "DANH MỤC LOẠI BÁNH";
             // 
             // labelControl2
             // 
@@ -74,7 +74,7 @@ namespace quanlybanhang
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(114, 23);
             this.labelControl2.TabIndex = 1;
-            this.labelControl2.Text = "Tên nguyên liệu";
+            this.labelControl2.Text = "Tên loại bánh";
             // 
             // txtTenChatLieu
             // 
@@ -92,7 +92,7 @@ namespace quanlybanhang
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(496, 167);
             this.groupControl1.TabIndex = 5;
-            this.groupControl1.Text = "Danh sách nguyên liệu";
+            this.groupControl1.Text = "Danh sách  loại bánh";
             // 
             // dgvChatLieu
             // 
@@ -217,7 +217,7 @@ namespace quanlybanhang
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(114, 26);
             this.labelControl3.TabIndex = 12;
-            this.labelControl3.Text = "Mã nguyên liệu";
+            this.labelControl3.Text = "Mã loại bánh";
             // 
             // frmDMChatLieu
             // 

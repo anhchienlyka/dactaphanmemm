@@ -52,7 +52,7 @@ namespace quanlybanhang
             this.mnuChatLieu.Name = "mnuChatLieu";
             this.mnuChatLieu.Size = new System.Drawing.Size(189, 105);
             this.mnuChatLieu.TabIndex = 0;
-            this.mnuChatLieu.Text = "Chất Liệu";
+            this.mnuChatLieu.Text = "Loại Bánh";
             this.mnuChatLieu.Click += new System.EventHandler(this.mnuChatLieu_Click);
             // 
             // mnuNhanVien
@@ -81,6 +81,7 @@ namespace quanlybanhang
             this.mnuKhachHang.Size = new System.Drawing.Size(189, 105);
             this.mnuKhachHang.TabIndex = 2;
             this.mnuKhachHang.Text = "Khách hàng";
+            this.mnuKhachHang.Click += new System.EventHandler(this.mnuKhachHang_Click);
             // 
             // mnuHangHoa
             // 
@@ -93,7 +94,7 @@ namespace quanlybanhang
             this.mnuHangHoa.Name = "mnuHangHoa";
             this.mnuHangHoa.Size = new System.Drawing.Size(189, 105);
             this.mnuHangHoa.TabIndex = 3;
-            this.mnuHangHoa.Text = "Hàng hóa";
+            this.mnuHangHoa.Text = "Sản phẩm";
             this.mnuHangHoa.Click += new System.EventHandler(this.mnuHangHoa_Click);
             // 
             // mnuHoaDonBan
@@ -108,6 +109,7 @@ namespace quanlybanhang
             this.mnuHoaDonBan.Size = new System.Drawing.Size(189, 105);
             this.mnuHoaDonBan.TabIndex = 4;
             this.mnuHoaDonBan.Text = "Hóa Đơn Bán";
+            this.mnuHoaDonBan.Click += new System.EventHandler(this.mnuHoaDonBan_Click);
             // 
             // mnuTimKiem
             // 
