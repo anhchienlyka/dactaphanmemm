@@ -51,5 +51,11 @@ namespace quanlybanhang
             frmHoadonbanhang frmHoadonbanhang = new frmHoadonbanhang();
             frmHoadonbanhang.ShowDialog();
         }
+
+        private void mnuTimKiem_Click(object sender, EventArgs e)
+        {
+            frmTimkiemHD frmTimkiemHD = new frmTimkiemHD();
+            frmTimkiemHD.ShowDialog();
+        }
     }
 }

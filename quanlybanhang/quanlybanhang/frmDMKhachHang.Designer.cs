@@ -196,7 +196,7 @@ namespace quanlybanhang
             this.btnBoQua.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btnBoQua.Appearance.Options.UseFont = true;
             this.btnBoQua.Appearance.Options.UseForeColor = true;
-            this.btnBoQua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnBoqua.ImageOptions.Image")));
+            this.btnBoQua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnBoQua.ImageOptions.Image")));
             this.btnBoQua.Location = new System.Drawing.Point(500, 320);
             this.btnBoQua.Margin = new System.Windows.Forms.Padding(2);
             this.btnBoQua.Name = "btnBoQua";
@@ -244,10 +244,10 @@ namespace quanlybanhang
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl2.Location = new System.Drawing.Point(37, 103);
+            this.labelControl2.Location = new System.Drawing.Point(37, 93);
             this.labelControl2.Margin = new System.Windows.Forms.Padding(2);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(114, 16);
+            this.labelControl2.Size = new System.Drawing.Size(114, 33);
             this.labelControl2.TabIndex = 37;
             this.labelControl2.Text = "Tên khách hàng";
             // 

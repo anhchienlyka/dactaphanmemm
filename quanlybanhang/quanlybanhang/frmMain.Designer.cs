@@ -123,6 +123,7 @@ namespace quanlybanhang
             this.mnuTimKiem.Size = new System.Drawing.Size(189, 105);
             this.mnuTimKiem.TabIndex = 5;
             this.mnuTimKiem.Text = "Tìm kiếm";
+            this.mnuTimKiem.Click += new System.EventHandler(this.mnuTimKiem_Click);
             // 
             // mnuBCHangTon
             // 

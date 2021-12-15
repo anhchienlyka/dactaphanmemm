@@ -19,7 +19,7 @@ namespace quanlybanhang.Class
             //DESKTOP-2KS3CPM\SQLEXPRESS
             //DESKTOP-KH6IVBO\PCC   --- may cây
             Con = new SqlConnection();   //Khởi tạo đối tượng
-            Con.ConnectionString = @"Data Source=DESKTOP-2KS3CPM\SQLEXPRESS;Initial Catalog=quanlybanh;Integrated Security=True";
+            Con.ConnectionString = @"Data Source=DESKTOP-KH6IVBO\PCC;Initial Catalog=quanlybanh;Integrated Security=True";
             Con.Open();                  //Mở kết nối
             //Kiểm tra kết nối
            

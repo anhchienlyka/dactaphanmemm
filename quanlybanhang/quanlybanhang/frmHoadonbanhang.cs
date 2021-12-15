@@ -65,12 +65,12 @@ namespace quanlybanhang
             dgvHDBanHang.Columns[3].HeaderText = "Đơn giá";
             dgvHDBanHang.Columns[4].HeaderText = "Giảm giá %";
             dgvHDBanHang.Columns[5].HeaderText = "Thành tiền";
-            dgvHDBanHang.Columns[0].Width = 80;
-            dgvHDBanHang.Columns[1].Width = 130;
-            dgvHDBanHang.Columns[2].Width = 80;
-            dgvHDBanHang.Columns[3].Width = 90;
-            dgvHDBanHang.Columns[4].Width = 90;
-            dgvHDBanHang.Columns[5].Width = 90;
+            dgvHDBanHang.Columns[0].Width = 150;
+            dgvHDBanHang.Columns[1].Width = 200;
+            dgvHDBanHang.Columns[2].Width = 100;
+            dgvHDBanHang.Columns[3].Width = 100;
+            dgvHDBanHang.Columns[4].Width = 100;
+            dgvHDBanHang.Columns[5].Width = 140;
             dgvHDBanHang.AllowUserToAddRows = false;
             dgvHDBanHang.EditMode = DataGridViewEditMode.EditProgrammatically;
         }
