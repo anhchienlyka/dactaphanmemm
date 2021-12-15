@@ -54,8 +54,8 @@ namespace quanlybanhang
 
         private void mnuTimKiem_Click(object sender, EventArgs e)
         {
-            frmTimkiemHD frmTimkiemHD = new frmTimkiemHD();
-            frmTimkiemHD.ShowDialog();
+            frmNhaCungCap frmNhaCungCap = new frmNhaCungCap();
+            frmNhaCungCap.ShowDialog();
         }
     }
 }

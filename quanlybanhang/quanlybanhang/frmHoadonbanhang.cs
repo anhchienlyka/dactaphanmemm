@@ -494,5 +494,11 @@ namespace quanlybanhang
         {
 
         }
+
+        private void simpleButton2_Click(object sender, EventArgs e)
+        {
+            frmTimkiemHD frmTimkiemHD = new frmTimkiemHD();
+            frmTimkiemHD.ShowDialog();
+        }
     }
 }

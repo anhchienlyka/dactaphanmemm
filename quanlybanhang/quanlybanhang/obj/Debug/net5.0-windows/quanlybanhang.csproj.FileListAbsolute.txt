@@ -303,3 +303,6 @@ C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net
 C:\Users\chien\Desktop\GITT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
 C:\Users\chien\Desktop\GITT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.csproj.ResolveComReference.cache
 C:\Users\PCC\Desktop\GIT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.frmTimKiemSanPham.resources
+C:\Users\chien\Desktop\GITT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.frmBaocaosanpham.resources
+C:\Users\chien\Desktop\GITT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.frmNhaCungCap.resources
+C:\Users\chien\Desktop\GITT\dactaphanmemm\quanlybanhang\quanlybanhang\obj\Debug\net5.0-windows\quanlybanhang.frmLogin.resources
